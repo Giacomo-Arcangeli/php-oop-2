@@ -1,13 +1,13 @@
 <?php
 
-require_once __DIR__ . '/../Category.php';
+require_once __DIR__ . '/../category.php';
 
 class Product{
 
     private $name;
     private $category;
 
-    public function __construct($name , $category){
+    public function __construct($name , category $category){
 
         $this->setName($name);
         $this->setCategory($category);
