@@ -28,7 +28,7 @@ class Product{
     }
 
     public function setCategory(Category $category):self{
-        if (&category instanceof Category) $this->category = $category;
+        if ($category instanceof Category) $this->category = $category;
         return $this;
     }
 
